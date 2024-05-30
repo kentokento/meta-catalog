@@ -169,6 +169,8 @@ type Product struct {
 	ItemGroupId                string              `json:"item_group_id,omitempty"`                // Optional.
 	Link                       string              `json:"link"`                                   // Required.
 	ManufacturerPartNumber     string              `json:"manufacturer_part_number,omitempty"`     // Optional.
+	Mpn                        string              `json:"mpn,omitempty"`                          // Optional.
+	Material                   string              `json:"material,omitempty"`                     // Optional.
 	Pattern                    string              `json:"pattern,omitempty"`                      // Optional.
 	Price                      string              `json:"price"`                                  // Required.
 	ProductTags                []string            `json:"product_tags,omitempty"`                 // Optional.
